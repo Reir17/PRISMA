@@ -98,7 +98,7 @@ export default function Sidebar({ role }: { role: string }) {
             <div className="space-y-1">
               {role === 'ADMIN' && (
                 <>
-                  <MenuLink href="/admin/users" active={isActive('/admin/users')} label="Data Pegawai" onClick={() => setIsOpen(false)} />
+                  <MenuLink href="/admin/users" active={isActive('/admin/users')} label="Data Pengguna" onClick={() => setIsOpen(false)} />
                   <MenuLink href="/admin/approval" active={isActive('/admin/approval')} label="Laporan Harian" onClick={() => setIsOpen(false)} />
                   <MenuLink href="/admin/settings" active={isActive('/admin/settings')} label="Pengaturan" onClick={() => setIsOpen(false)} />
                 </>
